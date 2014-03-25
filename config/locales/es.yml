@@ -22,6 +22,12 @@ es:
             one: Página
             many: Páginas
 
+      helpers:
+        label:
+          page:
+            <<: *page_labels
+
+      page: Página
       pages: Páginas
       static_content:
         static_pages: Páginas estáticas
@@ -31,10 +37,13 @@ es:
         body: Cuerpo
         new_page: Nueva página
         editing_page: Edición de página
+        confirm_delete: ¿Estás seguro?
+        link: Enlace
+        meta_title: Título Meta
+        page_navigation_title: "Páginas"
         foreign_link: Enlace externo (URL)
         show_in_header: Mostrar en la cabecera
         show_in_footer: Mostrar en el pie de página
         position: Posición
-        visible: Visible
-        confirm_delete: ¿Estás seguro?
+        visible: Visible        
         link: Enlace
